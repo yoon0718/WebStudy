@@ -1,0 +1,80 @@
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', 'Noto Sans KR';
+}
+
+.hidden {
+  display: none;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#clock, #greeting, #todo-list, #quote, #weather{
+  color: white;
+}
+
+#login-form , #clock, #greeting, #todo-form, #todo-list, #quote, #weather {
+  position: absolute;
+}
+
+#clock {
+  font-size: 100px;
+  top: 5%;
+  left: 5%;
+  text-shadow: 1px 1px 1px black;
+}
+
+#login-form {
+  top: 7%;
+  right: 5%
+}
+
+#greeting {
+  font-size: 35px;
+  top: 5%;
+  right: 5%;
+  text-shadow: 3px 3px 3px black;
+}
+
+#todo-form {
+  font-size: 15px;
+  top: 12%;
+  right: 5%;
+  
+}
+
+#quote {
+  font-size: 30px;
+  bottom: 6%;
+  right: 5%;
+  text-shadow: 5px 5px 5px black;
+}
+
+#weather {
+  top: 20%;
+  left: 5%;
+  text-shadow: 5px 5px 5px black;
+}
+
+#todo-list {
+  right: 5%;
+  top: 17%;
+  text-shadow: 5px 5px 5px black;
+}
